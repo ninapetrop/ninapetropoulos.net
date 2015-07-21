@@ -1,7 +1,7 @@
 body    {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin: 0;
 	background-color: white;
@@ -128,30 +128,35 @@ header p {
 	margin-bottom: 2vh;
 }
 table {
-	width: 100%;
+	width: 20vw;
 	height: auto;
 	float: left;
-	margin-top: 5%;
+	margin-right: auto;
 	
 }
 table tr td{
 	padding-bottom: 5%;
+	font-size: 2vh;
+	font-weight: 300;
 }
 table tr td:first-child {
-	width: 40%;
+	width: 75%;
 	height: auto;
 	
 }
 table tr td {
-	width: 8%;
+	width: 5%;
 	height: auto;
 	vertical-align: middle;
 }
 table img {
 	height: auto;
-	width: 60%;
-	margin-left: 15%;
+	width: 1.5vw;
 	margin-top: 1%;
+}
+#in-progress {
+	font-style: italic;
+	padding: 5vh 0 3vh 0
 }
 #works-menu {
 	width: 85%;
