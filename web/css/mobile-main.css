@@ -8,16 +8,8 @@ body    {
 	color: black;}
 .job-name {
 	font-weight: 600;
-	font-size: 120%;
 	margin-top: 5vh;
-}
-a {
-	font-weight: 300;
-	text-decoration: none;
-	color: black;
-}
-a:hover {
-	text-decoration: underline;
+	font-size: 2.5vh;
 }
 /* PUSH MENU */
 #menu {
@@ -79,8 +71,11 @@ a:hover {
     padding: 0;}
 .container {
 	height: auto;
-	width: 75vw;
-	padding: 0 12.5vw;}
+	width: 85vw;
+	padding: 0 7.5vw;
+	display: flex;
+	flex-wrap: wrap;
+	}
 @media screen and (min-device-width: 1920px) {
     .container {
 	height: auto;
@@ -95,7 +90,7 @@ header {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     width: 75vw;
-	padding: 10vh 15vw;
+	padding: 5vh 15vw;
     height: auto;
     color: whitesmoke;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e84843+0,e9625b+100 */
@@ -111,7 +106,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e84843', end
 
 }
 header h1 {
-    font-size: 8vh;
+    font-size: 6vh;
 	line-height: 1em;}
 header p {
 	font-size: 4vh;
@@ -119,24 +114,26 @@ header p {
 	line-height: 0;
 }
 #left-inner {
-	width: 35%;
-	margin-right: 25%;
+	width: 100%;
 	height: auto;
 	float: left;}
 #right-inner {
-	width: 32.5%;
+	width: 100%;
 	height: auto;
 	min-height: 100vh;
 	padding: 0 5% 0 2.5%;
 	float: left;
+	
 }
 #left-inner h2, #right-inner h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 5vh;
-	margin-bottom: 2vh;
+	font-size: 9vh;
+	margin-bottom: 10%;
+	text-align: center;
+	margin-top: 10vh;
 }
 table {
-	width: 20vw;
+	width: 80%;
 	height: auto;
 	float: left;
 	margin-right: auto;
@@ -148,34 +145,35 @@ table tr td{
 	font-weight: 300;
 }
 table tr td:first-child {
-	width: 75%;
+	width: 40%;
+	margin-right: 10%;
 	height: auto;
 	
 }
 table tr td {
-	width: 5%;
+	width: 10%;
 	height: auto;
 	vertical-align: middle;
 }
 table img {
 	height: auto;
-	width: 1.5vw;
+	width: 80%;
 	margin-top: 1%;
 }
 #in-progress {
 	font-style: italic;
-	padding: 5vh 0 3vh 0
+	padding: 5vh 0 3vh 0;
 }
 #works-menu {
 	width: 85%;
 	height: auto;
-	margin: 0 15% 10% 0;
+	margin: 0 7.5% 15% 7.5%;
 	text-align: center;
 	vertical-align: middle;
 	background-color: #e9625b;
 	color: white;
 	font-size: 2vh;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 #works-menu td {
 	width: 50%;
@@ -210,27 +208,20 @@ footer {
 	border-top: solid #e9625b;
 }
 footer ul {
+	width: 37.5%;
+	margin-left: 63.5%;
 	list-style: none;
 	padding-left: 0;
-	display: block;
-	float: left;
-}
-#contact {
-	margin-left: 64.5%;
-	width: 15%;
-}
-#more {
-	margin-left: 5%;
-	width: 15%:
 }
 #list-name {
 	font-weight: 600;
-	font-size: 1.5vw;
+	font-size: 2.5vh;
 	color: #e9625b;
 	margin-bottom: 2%;
 }
 footer li {
 	padding: 2% 0;
+	font-size: 1.5vh;
 }
 .CLEAR {
     clear: both;
